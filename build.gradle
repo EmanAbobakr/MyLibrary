@@ -4,3 +4,25 @@ plugins {
     id 'com.android.library' version '8.0.2' apply false
     id 'org.jetbrains.kotlin.android' version '1.7.20' apply false
 }
+
+ext {
+    // Project
+    targetSdkVersion = 33
+    minSdkVersion = 24
+    compileSdkVersion = targetSdkVersion
+    buildToolsVersion = '27.0.3'
+    coreLibVersion = '1.8.0'
+    kotlinBomVersion = '1.8.0'
+    lifecycleLibVersion = '2.3.1'
+    activityComposeLibVersion = '1.5.1'
+    junitVersion = "4.13.2"
+    extJunitVersion = "1.1.5"
+    constraintLayoutVersion = "2.1.4"
+    espressoCoreVersion = "3.5.1"
+    appcompatLibVersion = '1.6.1'
+
+    // ValidateTor Library Info
+    libVersionCode = 1
+    libVersionName = '1.0.0'
+    materialLibVersion = '1.9.0'
+}
