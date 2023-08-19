@@ -4,33 +4,4 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/edt_email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Email" />
-
-    <EditText
-        android:id="@+id/edt_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Password" />
-
-    <EditText
-        android:id="@+id/edt_creditcard"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Credit" />
-
-    <Button
-        android:id="@+id/btn_validate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Validate" />
 </LinearLayout>
