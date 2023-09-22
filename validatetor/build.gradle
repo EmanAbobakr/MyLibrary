@@ -43,3 +43,17 @@ dependencies {
     androidTestImplementation "androidx.test.ext:junit:$rootProject.ext.extJunitVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$rootProject.ext.espressoCoreVersion"
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'com.github.EmanAbobakr'
+                artifactId = 'validatetor'
+                version = '1.0'
+            }
+        }
+    }
+}
