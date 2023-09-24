@@ -1,6 +1,6 @@
 #configuation file for jitpack
 
 jdk:
-  - openjdk8
+  - openjdk11
 before_install:
   - ./scripts/prepareJitpackEnvironment.sh
